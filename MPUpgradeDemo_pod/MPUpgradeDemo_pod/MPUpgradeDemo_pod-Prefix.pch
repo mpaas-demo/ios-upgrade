@@ -1,0 +1,15 @@
+//
+//  MPUpgradeDemo_pod-Prefix.pch
+//  MPUpgradeDemo_pod
+//
+//  Created by yangwei on 2019/03/26.
+
+// MPAAS HEADERS BEGIN
+// This part is maintained by MPaaS plugin automatically. 
+#ifdef __OBJC__
+
+#import "MPUpgradeDemo_pod-mPaaS-Headers.h"
+
+#import <mPaas/MPJSONKit.h>
+#endif
+// MPAAS HEADERS END

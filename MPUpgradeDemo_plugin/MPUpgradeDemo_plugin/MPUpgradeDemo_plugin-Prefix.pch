@@ -1,0 +1,23 @@
+//
+//  MPUpgradeDemo_plugin-Prefix.pch
+//  MPUpgradeDemo_plugin
+//
+//  Created by vivi.yw on 2019/03/28.
+//  Copyright © 2019 Alibaba. All rights reserved.
+//
+
+#ifndef Mpaas_Prefix_Header_pch
+#define Mpaas_Prefix_Header_pch
+
+// This part is maintained by MPaaS plugin automatically.
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "MPUpgradeDemo_plugin-mPaaS-Headers.h"
+
+#import <mPaas/MPJSONKit.h>
+
+#endif
+
+#endif /* Mpaas_Prefix_Header_pch */

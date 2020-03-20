@@ -1,0 +1,9 @@
+# pod
+MPUpgradeDemo_pod/MPFrameworkDemo_pod.xcworkspace
+MPUpgradeDemo_pod/Podfile.lock
+MPUpgradeDemo_pod/Pods
+MPUpgradeDemo_pod/MPFrameworkDemo_pod.xcodeproj/project.xcworkspace
+MPUpgradeDemo_pod/MPFrameworkDemo_pod.xcodeproj/xcuserdata
+
+#plugin
+MPUpgradeDemo_plugin/MPaaS/Frameworks/

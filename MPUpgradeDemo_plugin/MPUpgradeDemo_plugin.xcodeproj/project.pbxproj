@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007683DC79017BAF2C513CF5 /* AliUpgradeUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 391A87F5A7B642335C698C81 /* AliUpgradeUI.bundle */; };
+		00DDF8D0E63458F6C2583033 /* SGMain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0746AF2B7DA4D39ACE926F3F /* SGMain.framework */; };
+		0533AB28CBA6F31808CF7506 /* MPBadgeService.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD98E73054BC90CD976B2E29 /* MPBadgeService.bundle */; };
+		059F3A5D32B9D1CAF7E01A58 /* MPMgsAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 141EE64719925B9F3495D3DB /* MPMgsAdapter.framework */; };
+		22FA542C120BAE7CFBCA0205 /* AntUIShellForMpass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1B48E0695A4445265A042C /* AntUIShellForMpass.framework */; };
+		28796CC83F4BED49549CBD91 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7828209CDA62045352881DC4 /* WebKit.framework */; };
+		29B64F4674C57AE2597E2C0D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6887109B28AD6785A6DEC9 /* SystemConfiguration.framework */; };
+		2A620941C3D2D217A7EF29CD /* yw_1222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B1F2A8CE15FF60FF3C11DAC /* yw_1222.jpg */; };
+		2AEAC0F4919BAB3A903B65C4 /* APMobileNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA701EE6D40D8CA62392EA35 /* APMobileNetwork.framework */; };
+		30506AFE23B785B5F194D94C /* APRemoteLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237719E80C8878B3F6FBC796 /* APRemoteLogging.framework */; };
+		309700AE587D58CF39FB9D18 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4502A71714BAD4DAFE31F876 /* Masonry.framework */; };
+		31B98EB7CB7F2AA0905AB269 /* AliUpgradeCheckService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F276E092068E48428E0C7D1 /* AliUpgradeCheckService.framework */; };
+		4461B9FE224C82B9004F739C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4461B9FD224C82B9004F739C /* AppDelegate.m */; };
+		4461BA01224C82B9004F739C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4461BA00224C82B9004F739C /* ViewController.m */; };
+		4461BA04224C82B9004F739C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4461BA02224C82B9004F739C /* Main.storyboard */; };
+		4461BA06224C82BB004F739C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4461BA05224C82BB004F739C /* Assets.xcassets */; };
+		4461BA09224C82BB004F739C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4461BA07224C82BB004F739C /* LaunchScreen.storyboard */; };
+		4461BA0C224C82BB004F739C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4461BA0B224C82BB004F739C /* main.m */; };
+		49EB98A1204A7EB719A299B0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23461457CD2C4CB09F842C49 /* MessageUI.framework */; };
+		4C3013FF50F321DCEC0AA282 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA47421776B00DDEF5FF84AC /* UIKit.framework */; };
+		5104D49371DEED9767DA94B6 /* APLongLinkService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B777989066C1DC13AFA35F /* APLongLinkService.framework */; };
+		5C25A002071085F6854CA9A8 /* Webkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C4969B70E627C5D77CEEBF7 /* Webkit.framework */; };
+		61E32AE39E2712B5E151D611 /* AliUpgradeCheckService.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5E59E738C2DE176B3F7E17DC /* AliUpgradeCheckService.bundle */; };
+		6B1A9C74B4571AEAEBCCFEB7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C692E4BE517196321F51391 /* CoreTelephony.framework */; };
+		6C08B06B57E57E0E75642269 /* APCommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C543D60A251CC51AA7A5DDD /* APCommonUI.framework */; };
+		7895F86DAFDA451DDAA10F2E /* mPaas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631A5E734D7CAE1ADC312BDD /* mPaas.framework */; };
+		7B061DE5B0678CBAD6B8C0A7 /* APOpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E4BF4B90EE70ACE3DB73F /* APOpenSSL.framework */; };
+		7EBB06FEDD9950C4C6CEB700 /* meta.config in Resources */ = {isa = PBXBuildFile; fileRef = B15231A67B2AB9C3590ABEBB /* meta.config */; };
+		8A9D1954F0B0FA2EBA791B23 /* AntUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBAC88724343DB926687EC48 /* AntUI.framework */; };
+		8AC53F6ACBFAE25070F73726 /* MPaaSInterface+MPUpgradeDemo_plugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 289707FAF922EEE5A695EB74 /* MPaaSInterface+MPUpgradeDemo_plugin.m */; };
+		8ECE7A053885AC9421D753DA /* SecurityGuardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575A3F127202F36D6C827AA1 /* SecurityGuardSDK.framework */; };
+		9051B38A92F2BAFE60773E24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA519D48C9E9CC780112F36B /* Foundation.framework */; };
+		96C4506966729F552D9D1DBD /* APCommonUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C6FBD01B210A99E5F7801445 /* APCommonUI.bundle */; };
+		A16DF5E1BE677FE779E88D44 /* AutoTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4443AA5165DCF1829B87F9ED /* AutoTracker.framework */; };
+		A6D41B308CFF8F2E93142C73 /* MPBadgeService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38781C961161EEA617C40681 /* MPBadgeService.framework */; };
+		AFF01FD282456901095C1FA2 /* TianYan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364C536445C06A570694B71E /* TianYan.framework */; };
+		B605271666FCA880426ADF99 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E431B6BDCF25707DC58C75A /* CoreMotion.framework */; };
+		B62FF490DA321D66A7313197 /* MPPerformance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF85D451E4CE4AC6655BC012 /* MPPerformance.framework */; };
+		B87E9D1401DDA55F145571C5 /* AliUpgradeUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACC6863014FBC6A2C2E0F12 /* AliUpgradeUI.framework */; };
+		B8DAD8EC5732E142A4A24B0D /* APSecurityUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCCA47BB1BA73CC0F53F882 /* APSecurityUtility.framework */; };
+		BD5B535F1A22E75B5F1FE061 /* MPMasAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF73C6D34B93BBDBD660D680 /* MPMasAdapter.framework */; };
+		CE3FA34319AD8E20B375C2B2 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4476C34CDE79F9B379E9464A /* Accelerate.framework */; };
+		D0B7DD3F332A16E04D2F009A /* APMobileNetwork.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 617429172F8579E339D5B970 /* APMobileNetwork.bundle */; };
+		D105D1F29C953AFB4ED4A811 /* MPDataCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB8FC17B52B7D817882BEB9 /* MPDataCenter.framework */; };
+		D11882758559CEE39206CA86 /* APCrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA6CAC67871B4D6BF18087C /* APCrashReporter.framework */; };
+		E588EA96453C85BEF79036A4 /* APProtocolBuffers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BCFDD555952E68AC9275766 /* APProtocolBuffers.framework */; };
+		E6F306D0D9177C0E3E580316 /* APLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A44FB70D7AAF4892104921 /* APLog.framework */; };
+		E7B78422254FF5BF4A72DD48 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DD2730367D7612E4F2BD12 /* MBProgressHUD.framework */; };
+		EAC86086FCD377D91BC347AF /* UTDID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB96B111A421BA4A026FDC41 /* UTDID.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0746AF2B7DA4D39ACE926F3F /* SGMain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGMain.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/SGMain.framework"; sourceTree = "<absolute>"; };
+		07A44FB70D7AAF4892104921 /* APLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APLog.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/APLog.framework"; sourceTree = "<absolute>"; };
+		08C0287A8A48CA979F4C2FFA /* MPUpgradeDemo_plugin-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPUpgradeDemo_plugin-Prefix.pch"; sourceTree = "<group>"; };
+		0B1F2A8CE15FF60FF3C11DAC /* yw_1222.jpg */ = {isa = PBXFileReference; includeInIndex = 1; path = yw_1222.jpg; sourceTree = "<group>"; };
+		0C543D60A251CC51AA7A5DDD /* APCommonUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APCommonUI.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/APCommonUI.framework"; sourceTree = "<absolute>"; };
+		0C692E4BE517196321F51391 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0DA6CAC67871B4D6BF18087C /* APCrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APCrashReporter.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/APCrashReporter.framework"; sourceTree = "<absolute>"; };
+		141EE64719925B9F3495D3DB /* MPMgsAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPMgsAdapter.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/MPMgsAdapter.framework"; sourceTree = "<absolute>"; };
+		1C1B48E0695A4445265A042C /* AntUIShellForMpass.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AntUIShellForMpass.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/AntUIShellForMpass.framework"; sourceTree = "<absolute>"; };
+		23461457CD2C4CB09F842C49 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		237719E80C8878B3F6FBC796 /* APRemoteLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APRemoteLogging.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/APRemoteLogging.framework"; sourceTree = "<absolute>"; };
+		289707FAF922EEE5A695EB74 /* MPaaSInterface+MPUpgradeDemo_plugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPaaSInterface+MPUpgradeDemo_plugin.m"; sourceTree = "<group>"; };
+		364C536445C06A570694B71E /* TianYan.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TianYan.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/TianYan.framework"; sourceTree = "<absolute>"; };
+		38781C961161EEA617C40681 /* MPBadgeService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPBadgeService.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/MPBadgeService.framework"; sourceTree = "<absolute>"; };
+		391A87F5A7B642335C698C81 /* AliUpgradeUI.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AliUpgradeUI.bundle; sourceTree = "<group>"; };
+		3E431B6BDCF25707DC58C75A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		4257F93C7F09C86613A10672 /* MPaaSInterface+MPUpgradeDemo_plugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPaaSInterface+MPUpgradeDemo_plugin.h"; sourceTree = "<group>"; };
+		4443AA5165DCF1829B87F9ED /* AutoTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoTracker.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/AutoTracker.framework"; sourceTree = "<absolute>"; };
+		4461B9F9224C82B9004F739C /* MPUpgradeDemo_plugin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPUpgradeDemo_plugin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4461B9FC224C82B9004F739C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4461B9FD224C82B9004F739C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4461B9FF224C82B9004F739C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4461BA00224C82B9004F739C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4461BA03224C82B9004F739C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4461BA05224C82BB004F739C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4461BA08224C82BB004F739C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4461BA0A224C82BB004F739C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4461BA0B224C82BB004F739C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4476C34CDE79F9B379E9464A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		4502A71714BAD4DAFE31F876 /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/Masonry.framework"; sourceTree = "<absolute>"; };
+		556C6CDE271B7E35ED274902 /* mpaas_sdk.config */ = {isa = PBXFileReference; includeInIndex = 1; path = mpaas_sdk.config; sourceTree = "<group>"; };
+		575A3F127202F36D6C827AA1 /* SecurityGuardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityGuardSDK.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/SecurityGuardSDK.framework"; sourceTree = "<absolute>"; };
+		5E59E738C2DE176B3F7E17DC /* AliUpgradeCheckService.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AliUpgradeCheckService.bundle; sourceTree = "<group>"; };
+		617429172F8579E339D5B970 /* APMobileNetwork.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APMobileNetwork.bundle; sourceTree = "<group>"; };
+		631A5E734D7CAE1ADC312BDD /* mPaas.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mPaas.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/mPaas.framework"; sourceTree = "<absolute>"; };
+		6E9E37CDCA9F8B0DD243BB24 /* MPUpgradeDemo_plugin-mPaaS-Headers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPUpgradeDemo_plugin-mPaaS-Headers.h"; sourceTree = "<group>"; };
+		6F276E092068E48428E0C7D1 /* AliUpgradeCheckService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliUpgradeCheckService.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/AliUpgradeCheckService.framework"; sourceTree = "<absolute>"; };
+		70DD2730367D7612E4F2BD12 /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/MBProgressHUD.framework"; sourceTree = "<absolute>"; };
+		7828209CDA62045352881DC4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		7EB8FC17B52B7D817882BEB9 /* MPDataCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPDataCenter.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/MPDataCenter.framework"; sourceTree = "<absolute>"; };
+		8BCFDD555952E68AC9275766 /* APProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APProtocolBuffers.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/APProtocolBuffers.framework"; sourceTree = "<absolute>"; };
+		8C4969B70E627C5D77CEEBF7 /* Webkit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Webkit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Webkit.framework; sourceTree = SDKROOT; };
+		AA38BBB42CE11CA80DA69455 /* MPUpgradeDemo_plugin-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MPUpgradeDemo_plugin-Prefix.pch"; path = "../../../MPUpgradeDemo_plugin/MPUpgradeDemo_plugin-Prefix.pch"; sourceTree = "<group>"; };
+		AC6887109B28AD6785A6DEC9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AF73C6D34B93BBDBD660D680 /* MPMasAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPMasAdapter.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/MPMasAdapter.framework"; sourceTree = "<absolute>"; };
+		B15231A67B2AB9C3590ABEBB /* meta.config */ = {isa = PBXFileReference; includeInIndex = 1; path = meta.config; sourceTree = "<group>"; };
+		BA47421776B00DDEF5FF84AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA519D48C9E9CC780112F36B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C6FBD01B210A99E5F7801445 /* APCommonUI.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APCommonUI.bundle; sourceTree = "<group>"; };
+		CA701EE6D40D8CA62392EA35 /* APMobileNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APMobileNetwork.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/APMobileNetwork.framework"; sourceTree = "<absolute>"; };
+		CACC6863014FBC6A2C2E0F12 /* AliUpgradeUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliUpgradeUI.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/AliUpgradeUI.framework"; sourceTree = "<absolute>"; };
+		CE0E4BF4B90EE70ACE3DB73F /* APOpenSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APOpenSSL.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/APOpenSSL.framework"; sourceTree = "<absolute>"; };
+		CF85D451E4CE4AC6655BC012 /* MPPerformance.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPPerformance.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/MPPerformance.framework"; sourceTree = "<absolute>"; };
+		DB96B111A421BA4A026FDC41 /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/UTDID.framework"; sourceTree = "<absolute>"; };
+		DBAC88724343DB926687EC48 /* AntUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AntUI.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/AntUI.framework"; sourceTree = "<absolute>"; };
+		DFCCA47BB1BA73CC0F53F882 /* APSecurityUtility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APSecurityUtility.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/APSecurityUtility.framework"; sourceTree = "<absolute>"; };
+		F7B777989066C1DC13AFA35F /* APLongLinkService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APLongLinkService.framework; path = "/Users/yangwei/Desktop/AlipayWorkspace/CloudAlipay/mPaaS-Demos/AliyunCode/Plugins/MPUpgradeDemo_plugin/MPaaS/Frameworks/APLongLinkService.framework"; sourceTree = "<absolute>"; };
+		FD98E73054BC90CD976B2E29 /* MPBadgeService.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = MPBadgeService.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4461B9F6224C82B9004F739C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F306D0D9177C0E3E580316 /* APLog.framework in Frameworks */,
+				2AEAC0F4919BAB3A903B65C4 /* APMobileNetwork.framework in Frameworks */,
+				8ECE7A053885AC9421D753DA /* SecurityGuardSDK.framework in Frameworks */,
+				00DDF8D0E63458F6C2583033 /* SGMain.framework in Frameworks */,
+				B8DAD8EC5732E142A4A24B0D /* APSecurityUtility.framework in Frameworks */,
+				7895F86DAFDA451DDAA10F2E /* mPaas.framework in Frameworks */,
+				7B061DE5B0678CBAD6B8C0A7 /* APOpenSSL.framework in Frameworks */,
+				059F3A5D32B9D1CAF7E01A58 /* MPMgsAdapter.framework in Frameworks */,
+				BD5B535F1A22E75B5F1FE061 /* MPMasAdapter.framework in Frameworks */,
+				30506AFE23B785B5F194D94C /* APRemoteLogging.framework in Frameworks */,
+				EAC86086FCD377D91BC347AF /* UTDID.framework in Frameworks */,
+				E588EA96453C85BEF79036A4 /* APProtocolBuffers.framework in Frameworks */,
+				A16DF5E1BE677FE779E88D44 /* AutoTracker.framework in Frameworks */,
+				B62FF490DA321D66A7313197 /* MPPerformance.framework in Frameworks */,
+				AFF01FD282456901095C1FA2 /* TianYan.framework in Frameworks */,
+				D105D1F29C953AFB4ED4A811 /* MPDataCenter.framework in Frameworks */,
+				D11882758559CEE39206CA86 /* APCrashReporter.framework in Frameworks */,
+				31B98EB7CB7F2AA0905AB269 /* AliUpgradeCheckService.framework in Frameworks */,
+				B87E9D1401DDA55F145571C5 /* AliUpgradeUI.framework in Frameworks */,
+				5104D49371DEED9767DA94B6 /* APLongLinkService.framework in Frameworks */,
+				6C08B06B57E57E0E75642269 /* APCommonUI.framework in Frameworks */,
+				309700AE587D58CF39FB9D18 /* Masonry.framework in Frameworks */,
+				8A9D1954F0B0FA2EBA791B23 /* AntUI.framework in Frameworks */,
+				E7B78422254FF5BF4A72DD48 /* MBProgressHUD.framework in Frameworks */,
+				22FA542C120BAE7CFBCA0205 /* AntUIShellForMpass.framework in Frameworks */,
+				A6D41B308CFF8F2E93142C73 /* MPBadgeService.framework in Frameworks */,
+				29B64F4674C57AE2597E2C0D /* SystemConfiguration.framework in Frameworks */,
+				B605271666FCA880426ADF99 /* CoreMotion.framework in Frameworks */,
+				6B1A9C74B4571AEAEBCCFEB7 /* CoreTelephony.framework in Frameworks */,
+				5C25A002071085F6854CA9A8 /* Webkit.framework in Frameworks */,
+				28796CC83F4BED49549CBD91 /* WebKit.framework in Frameworks */,
+				49EB98A1204A7EB719A299B0 /* MessageUI.framework in Frameworks */,
+				4C3013FF50F321DCEC0AA282 /* UIKit.framework in Frameworks */,
+				9051B38A92F2BAFE60773E24 /* Foundation.framework in Frameworks */,
+				CE3FA34319AD8E20B375C2B2 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22AFF7587E1EABD3B7D24091 /* MPUpgradeDemo_plugin */ = {
+			isa = PBXGroup;
+			children = (
+				B15231A67B2AB9C3590ABEBB /* meta.config */,
+				0B1F2A8CE15FF60FF3C11DAC /* yw_1222.jpg */,
+				6E9E37CDCA9F8B0DD243BB24 /* MPUpgradeDemo_plugin-mPaaS-Headers.h */,
+				AA38BBB42CE11CA80DA69455 /* MPUpgradeDemo_plugin-Prefix.pch */,
+				F695E95C81E39C5DA1DFA7F9 /* mPaas */,
+			);
+			name = MPUpgradeDemo_plugin;
+			path = MPUpgradeDemo_plugin;
+			sourceTree = "<group>";
+		};
+		2F2BA300B9F713DE4ACD9B32 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				22AFF7587E1EABD3B7D24091 /* MPUpgradeDemo_plugin */,
+			);
+			name = Targets;
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		4461B9F0224C82B9004F739C = {
+			isa = PBXGroup;
+			children = (
+				4461B9FB224C82B9004F739C /* MPUpgradeDemo_plugin */,
+				4461B9FA224C82B9004F739C /* Products */,
+				E08891292E0E59C5750F0D7F /* Frameworks */,
+				C4869A3864FB606F659DEF3C /* MPaaS */,
+			);
+			sourceTree = "<group>";
+		};
+		4461B9FA224C82B9004F739C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4461B9F9224C82B9004F739C /* MPUpgradeDemo_plugin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4461B9FB224C82B9004F739C /* MPUpgradeDemo_plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4461B9FC224C82B9004F739C /* AppDelegate.h */,
+				4461B9FD224C82B9004F739C /* AppDelegate.m */,
+				4461B9FF224C82B9004F739C /* ViewController.h */,
+				4461BA00224C82B9004F739C /* ViewController.m */,
+				4461BA02224C82B9004F739C /* Main.storyboard */,
+				4461BA05224C82BB004F739C /* Assets.xcassets */,
+				4461BA07224C82BB004F739C /* LaunchScreen.storyboard */,
+				4461BA0A224C82BB004F739C /* Info.plist */,
+				4461BA0B224C82BB004F739C /* main.m */,
+				08C0287A8A48CA979F4C2FFA /* MPUpgradeDemo_plugin-Prefix.pch */,
+			);
+			path = MPUpgradeDemo_plugin;
+			sourceTree = "<group>";
+		};
+		AA6D9AA1B3EE0EBD828E58E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07A44FB70D7AAF4892104921 /* APLog.framework */,
+				CA701EE6D40D8CA62392EA35 /* APMobileNetwork.framework */,
+				575A3F127202F36D6C827AA1 /* SecurityGuardSDK.framework */,
+				0746AF2B7DA4D39ACE926F3F /* SGMain.framework */,
+				DFCCA47BB1BA73CC0F53F882 /* APSecurityUtility.framework */,
+				631A5E734D7CAE1ADC312BDD /* mPaas.framework */,
+				CE0E4BF4B90EE70ACE3DB73F /* APOpenSSL.framework */,
+				141EE64719925B9F3495D3DB /* MPMgsAdapter.framework */,
+				AF73C6D34B93BBDBD660D680 /* MPMasAdapter.framework */,
+				237719E80C8878B3F6FBC796 /* APRemoteLogging.framework */,
+				DB96B111A421BA4A026FDC41 /* UTDID.framework */,
+				8BCFDD555952E68AC9275766 /* APProtocolBuffers.framework */,
+				4443AA5165DCF1829B87F9ED /* AutoTracker.framework */,
+				CF85D451E4CE4AC6655BC012 /* MPPerformance.framework */,
+				364C536445C06A570694B71E /* TianYan.framework */,
+				7EB8FC17B52B7D817882BEB9 /* MPDataCenter.framework */,
+				0DA6CAC67871B4D6BF18087C /* APCrashReporter.framework */,
+				6F276E092068E48428E0C7D1 /* AliUpgradeCheckService.framework */,
+				CACC6863014FBC6A2C2E0F12 /* AliUpgradeUI.framework */,
+				F7B777989066C1DC13AFA35F /* APLongLinkService.framework */,
+				0C543D60A251CC51AA7A5DDD /* APCommonUI.framework */,
+				4502A71714BAD4DAFE31F876 /* Masonry.framework */,
+				DBAC88724343DB926687EC48 /* AntUI.framework */,
+				70DD2730367D7612E4F2BD12 /* MBProgressHUD.framework */,
+				1C1B48E0695A4445265A042C /* AntUIShellForMpass.framework */,
+				38781C961161EEA617C40681 /* MPBadgeService.framework */,
+			);
+			name = Frameworks;
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4869A3864FB606F659DEF3C /* MPaaS */ = {
+			isa = PBXGroup;
+			children = (
+				556C6CDE271B7E35ED274902 /* mpaas_sdk.config */,
+				2F2BA300B9F713DE4ACD9B32 /* Targets */,
+				ECA15EEB1B8EF58320B58A30 /* Resources */,
+				AA6D9AA1B3EE0EBD828E58E7 /* Frameworks */,
+			);
+			name = MPaaS;
+			path = MPaaS;
+			sourceTree = "<group>";
+		};
+		E08891292E0E59C5750F0D7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC6887109B28AD6785A6DEC9 /* SystemConfiguration.framework */,
+				3E431B6BDCF25707DC58C75A /* CoreMotion.framework */,
+				0C692E4BE517196321F51391 /* CoreTelephony.framework */,
+				8C4969B70E627C5D77CEEBF7 /* Webkit.framework */,
+				7828209CDA62045352881DC4 /* WebKit.framework */,
+				23461457CD2C4CB09F842C49 /* MessageUI.framework */,
+				BA47421776B00DDEF5FF84AC /* UIKit.framework */,
+				BA519D48C9E9CC780112F36B /* Foundation.framework */,
+				4476C34CDE79F9B379E9464A /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECA15EEB1B8EF58320B58A30 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				617429172F8579E339D5B970 /* APMobileNetwork.bundle */,
+				5E59E738C2DE176B3F7E17DC /* AliUpgradeCheckService.bundle */,
+				391A87F5A7B642335C698C81 /* AliUpgradeUI.bundle */,
+				C6FBD01B210A99E5F7801445 /* APCommonUI.bundle */,
+				FD98E73054BC90CD976B2E29 /* MPBadgeService.bundle */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F695E95C81E39C5DA1DFA7F9 /* mPaas */ = {
+			isa = PBXGroup;
+			children = (
+				4257F93C7F09C86613A10672 /* MPaaSInterface+MPUpgradeDemo_plugin.h */,
+				289707FAF922EEE5A695EB74 /* MPaaSInterface+MPUpgradeDemo_plugin.m */,
+			);
+			name = mPaas;
+			path = mPaas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4461B9F8224C82B9004F739C /* MPUpgradeDemo_plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4461BA0F224C82BB004F739C /* Build configuration list for PBXNativeTarget "MPUpgradeDemo_plugin" */;
+			buildPhases = (
+				4461B9F5224C82B9004F739C /* Sources */,
+				4461B9F6224C82B9004F739C /* Frameworks */,
+				4461B9F7224C82B9004F739C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPUpgradeDemo_plugin;
+			productName = MPUpgradeDemo_plugin;
+			productReference = 4461B9F9224C82B9004F739C /* MPUpgradeDemo_plugin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4461B9F1224C82B9004F739C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = yangwei;
+				TargetAttributes = {
+					4461B9F8224C82B9004F739C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4461B9F4224C82B9004F739C /* Build configuration list for PBXProject "MPUpgradeDemo_plugin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4461B9F0224C82B9004F739C;
+			productRefGroup = 4461B9FA224C82B9004F739C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4461B9F8224C82B9004F739C /* MPUpgradeDemo_plugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4461B9F7224C82B9004F739C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4461BA09224C82BB004F739C /* LaunchScreen.storyboard in Resources */,
+				4461BA06224C82BB004F739C /* Assets.xcassets in Resources */,
+				4461BA04224C82B9004F739C /* Main.storyboard in Resources */,
+				7EBB06FEDD9950C4C6CEB700 /* meta.config in Resources */,
+				2A620941C3D2D217A7EF29CD /* yw_1222.jpg in Resources */,
+				D0B7DD3F332A16E04D2F009A /* APMobileNetwork.bundle in Resources */,
+				61E32AE39E2712B5E151D611 /* AliUpgradeCheckService.bundle in Resources */,
+				007683DC79017BAF2C513CF5 /* AliUpgradeUI.bundle in Resources */,
+				96C4506966729F552D9D1DBD /* APCommonUI.bundle in Resources */,
+				0533AB28CBA6F31808CF7506 /* MPBadgeService.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4461B9F5224C82B9004F739C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4461BA01224C82B9004F739C /* ViewController.m in Sources */,
+				4461BA0C224C82BB004F739C /* main.m in Sources */,
+				4461B9FE224C82B9004F739C /* AppDelegate.m in Sources */,
+				8AC53F6ACBFAE25070F73726 /* MPaaSInterface+MPUpgradeDemo_plugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4461BA02224C82B9004F739C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4461BA03224C82B9004F739C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4461BA07224C82BB004F739C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4461BA08224C82BB004F739C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4461BA0D224C82BB004F739C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4461BA0E224C82BB004F739C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4461BA10224C82BB004F739C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H99H5SKV8V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MPaaS/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPUpgradeDemo_plugin/MPUpgradeDemo_plugin-Prefix.pch";
+				INFOPLIST_FILE = MPUpgradeDemo_plugin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lz",
+					"-lsqlite3",
+					"-lxml2",
+					"-lc++",
+					"-lbz2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mpaas.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "-Wno-objc-protocol-method-implementation";
+			};
+			name = Debug;
+		};
+		4461BA11224C82BB004F739C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H99H5SKV8V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MPaaS/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPUpgradeDemo_plugin/MPUpgradeDemo_plugin-Prefix.pch";
+				INFOPLIST_FILE = MPUpgradeDemo_plugin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lz",
+					"-lsqlite3",
+					"-lxml2",
+					"-lc++",
+					"-lbz2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mpaas.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "-Wno-objc-protocol-method-implementation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4461B9F4224C82B9004F739C /* Build configuration list for PBXProject "MPUpgradeDemo_plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4461BA0D224C82BB004F739C /* Debug */,
+				4461BA0E224C82BB004F739C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4461BA0F224C82BB004F739C /* Build configuration list for PBXNativeTarget "MPUpgradeDemo_plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4461BA10224C82BB004F739C /* Debug */,
+				4461BA11224C82BB004F739C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4461B9F1224C82B9004F739C /* Project object */;
+}
